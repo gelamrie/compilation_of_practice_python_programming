@@ -2,5 +2,6 @@
 total = 0
 
 #Loop 10 times to get user input
-#Add each input number to the sum
-#print the total sum or the result
+for i in range(10):
+    total += float(input(f"Enter a number: ")) #Add each input number to the sum
+#Print the total sum or the result
