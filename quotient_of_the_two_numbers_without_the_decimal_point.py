@@ -3,6 +3,7 @@ num_1 = int(input("Enter the first number: "))
 num_2 = int(input("Enter the second number: "))
 
 if num_2 != 0: #Check if num_2 is not equal to zero
-#If true, solve for the quotient 
-#Display the quotient without decimal places
-#If num_2 is equal to zero, diplay "Division by zero is not allowed."
+    quotient = num_1 / num_2 #If true, solve for the quotient 
+    print (f"The quotient of the two numbers is {quotient:.0f}.") #Display the quotient without decimal places
+else:
+    print("Division by zero is not allowed") #If num_2 is equal to zero, diplay "Division by zero is not allowed."
