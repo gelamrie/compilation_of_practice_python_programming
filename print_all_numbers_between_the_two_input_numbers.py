@@ -5,5 +5,7 @@ num_2 = int(input("Enter the second number: "))
 #Ensure 'num_1' is the smaller number
 if num_1 > num_2:
     num_1, num_2 = num_2, num_2 
-    
+
 #Print numbers between 'num_1' and 'num_2'
+for i in range(num_1 + 1, num_2):
+    print(i)
