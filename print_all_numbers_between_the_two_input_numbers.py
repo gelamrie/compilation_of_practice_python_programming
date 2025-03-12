@@ -1,3 +1,3 @@
 #Get input from the user
-#Ensure 'a' is the smaller number
-#Print numbers between 'a' and 'b'
+#Ensure 'num_1' is the smaller number
+#Print numbers between 'num_1' and 'num_2'
