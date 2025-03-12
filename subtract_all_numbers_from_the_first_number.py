@@ -10,3 +10,4 @@ for i in range(10):
 result = numbers[0] - sum(numbers[1:]) 
 
 #Print the result
+print("The result is", result, end= ".")
