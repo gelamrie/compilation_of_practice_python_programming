@@ -1,4 +1,6 @@
 #Create an empty list 
+numbers = []
+
 #Create while loop 
     #Get user input
     #Check if the number is already in the list 
