@@ -1,4 +1,5 @@
 #Create an empty list
+numbers = [] 
 #while loop
     #Add user input to the list
     #Break if invalid input was entered
