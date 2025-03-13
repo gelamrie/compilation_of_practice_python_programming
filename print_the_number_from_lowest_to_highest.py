@@ -5,4 +5,6 @@ while True: #While loop
         numbers.append(int(input("Enter a number: ")))#Add the user input to the list
     except ValueError:
         break #Break or stop if invalid input entered
+
 #Print the number from lowest to highest
+print("Numbers from lowest to highest:", sorted(numbers), end= ".")
