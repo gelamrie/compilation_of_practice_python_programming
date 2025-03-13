@@ -5,3 +5,4 @@ numbers = [int(input("Enter a number: ")) for i in range (10)]
 unique_numbers = [num for num in numbers if numbers.count(num) == 1]
 
 #Print the unique numbers
+print("The numbers without duplicates is/are", unique_numbers, end= ".")
