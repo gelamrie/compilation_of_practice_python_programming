@@ -1,6 +1,6 @@
 #Create an empty list to store numbers
 numbers = []
-
-#Create a loop to get the user input
+for i in range (10): #Create a loop to get the user input
+    num = int(input("Enter a number: "))
 #Add number only if it is not in the list already
 #Print the list 
