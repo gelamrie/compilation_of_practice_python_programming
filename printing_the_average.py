@@ -9,5 +9,6 @@ while True: #while loop
 #Compute for the average
 if numbers: 
     average = sum(numbers) / len (numbers) #Create formula
-    #Print the average
-    #Print "No numbers entered" if there's no number detected
+    print("The average is", average, end= ".") #Print the average
+else: 
+    print("No numbers entered.")#Print "No numbers entered" if there's no number detected
