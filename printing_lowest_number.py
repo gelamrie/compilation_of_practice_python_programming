@@ -7,5 +7,7 @@ while True: #While loop
         break #Stop when an invalid input is entered
 
 #Display result
-    #Print the lowest number if there is any
-    #Print "No numbers entered" if no numbers were entered
+if numbers: 
+    print("The lowest number is", min(numbers), end= ".") #Print the lowest number if there is any
+else: 
+    print("No numbers entered") #Print "No numbers entered" if no numbers were entered
