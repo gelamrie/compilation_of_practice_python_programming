@@ -2,7 +2,7 @@
 numbers = [] 
 while True: #while loop
     try: 
-        numbers.append(int(input("Enter a number: "))) #Add user input to the list
+        numbers.append(int(input("Enter a number: "))) #Add numbers from user input to the list
     except ValueError: 
         break #Break if invalid input was entered
 
