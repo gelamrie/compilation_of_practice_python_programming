@@ -1,8 +1,8 @@
 #Create an empty list 
 numbers = []
-
-#Create while loop 
-    #Get user input
+while True: #Create while loop 
+    try:
+        num = int(input("Enter a number: "))#Get user input
     #Check if the number is already in the list 
     #Print "unique" if number is not in the list
     #Print "duplicate" if number is in the list
