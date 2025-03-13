@@ -7,6 +7,8 @@ while True: #while loop
         break #Break if invalid input was entered
 
 #Identify the numbers from highest to lowest
-    #Use revserse=True to modify the arrangement in descending order 
-    #Print numbers from highest to lowest
-    #Print "No numbers entered." if there's no number detected
+if numbers: 
+    numbers.sort(reverse=True) #Use revserse=True to modify the arrangement in descending order 
+    print("Numbers from highest to lowest:", numbers, end= ".") #Print numbers from highest to lowest
+else:
+    print("No numbers entered.")
