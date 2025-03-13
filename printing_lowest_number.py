@@ -1,7 +1,8 @@
 #Create an empty list
 numbers = []
-#While loop
-    #Add the user input to the list
+while True: #While loop
+    try: 
+        numbers.append(int(input("Enter a number: "))) #Add the user input to the list
     #Stop when an invalid input is entered
 #Display result
     #Print the lowest number if there is any
